@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        "card":"#FDCB9E",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

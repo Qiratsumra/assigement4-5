@@ -3,16 +3,16 @@ import Image  from "next/image";
 import cake from "../../../public/image.png";
 export default function Cake(){
     return(
-     <div className="flex justify-center font-serif">
-          <div className="card6  sm: text-center divide-solid rounded-xl sm: h-[1560px] w-[700px]  bg-card m-10 ">
-          <Image src={cake} alt="cake" className="p-2 rounded-xl flex items-center justify-center"></Image>
-          <h1 className="text-4xl">Chocolate Cake</h1>
-          <p className="text-xl"><q>Cake: proof that even the best things in life are better with frosting 
+     <div className="flex justify-center font-serif max-sm:flex max-sm:justify-center max-sm:m-24">
+          <div className="card6  text-center divide-solid rounded-xl  h-[1560px] w-[700px]  bg-card m-10 max-sm:divide-solid max-sm:rounded-lg max-sm:h-3/4 max-sm:w-[900px]">
+          <Image src={cake} alt="cake" className="p-2 rounded-xl flex items-center justify-center max-sm:flex max-sm:items-center"></Image>
+          <h1 className="text-4xl max-sm:text-2xl max-sm:font-bold">Chocolate Cake</h1>
+          <p className="text-xl max-sm:text-xs"><q>Cake: proof that even the best things in life are better with frosting 
             <br /> 🍽️🌍</q></p>
-            <h2 className="text-2xl  text-orange-900 font-bold">Ingredients:</h2>
+            <h2 className="text-2xl  text-orange-900 font-bold max-sm:text-xl max-sm:font-bold">Ingredients:</h2>
             <ol>
-                <h3 className="text-xl text-orange-900 font-bold underline">For Cake</h3>
-            <li>1 and 3/4 cups (220g) all-purpose flour</li>
+                <h3 className="text-xl text-orange-900 font-bold underline max-sm:text-[15px]">For Cake</h3>
+            <li className="max-sm:text-[20px]">1 and 3/4 cups (220g) all-purpose flour</li>
             <li>3/4 cup (65g) unsweetened cocoa powder</li>
             <li>1 and 1/2 teaspoons baking powder</li>
             <li>1 and 1/2 teaspoons baking soda</li>

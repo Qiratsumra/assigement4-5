@@ -10,6 +10,7 @@ import pasta from "../../public/Pasta.jpg"
 import shake from "../../public/shake.jpeg"
 import Link from "next/link";
 
+
 export default function Home() {
   return (
 
@@ -19,11 +20,11 @@ export default function Home() {
 
 
       {/* Blog Heading Section */}
-    <h1 className="font-serif text-center m-10 text-5xl text-orange-500 font-bold">My Food Blog Website by Qirat Saeed</h1>
+    <h1 className="font-serif text-center m-10 text-5xl text-orange-500 font-bold max-sm:text-3xl max-sm:m-4 max-sm:text-center max-sm:ml-28 max-sm:inline">My Food Blog Website by Qirat Saeed</h1>
 
 
     {/* Card Section */}
-    <div className="flex justify-evenly flex-wrap p-10">
+    <div className="flex justify-evenly flex-wrap p-10 max-sm:items-center max-sm:block">
 
 
       {/* Cake Card */}

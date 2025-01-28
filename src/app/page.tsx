@@ -10,7 +10,6 @@ import pasta from "../../public/Pasta.jpg"
 import shake from "../../public/shake.jpeg"
 import Link from "next/link";
 
-
 export default function Home() {
   return (
 
@@ -80,5 +79,6 @@ export default function Home() {
       </div>
     </div>
    </main>
+
   );
 }
